@@ -1,0 +1,154 @@
+#input_map {
+	height: 400px;
+	width: 760px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#input_map img{max-width: inherit;}
+
+#input_map .controls {
+    margin-top: 16px;
+    border: 1px solid transparent;
+    border-radius: 2px 0 0 2px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 32px;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+#input_buscar {
+    background-color: #fff;
+    padding: 0 11px 0 13px;
+    width: 200px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    text-overflow: ellipsis;
+}
+
+#input_buscar:focus {
+    border-color: #4d90fe;
+    margin-left: -1px;
+    padding-left: 14px;  /* Regular padding-left + 1. */
+    width: 201px;
+}
+.container{
+	width: 960px;
+}
+.table-striped > a, a:link, a:visited, a:hover {
+	color: #9263cd;
+}
+
+.row {
+	margin-left: 0;
+}
+.row-mapa{
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 50px;
+	width: 960px;
+	padding: 0px;
+}
+.row-mapa > h1{
+	display: inline-block;
+	padding-left: 100px;
+	font-family: "Dosis";
+}
+.row-mapa > img{
+	padding-bottom: 40px;
+}
+
+.grid{
+	width: 390px;
+	float: left;
+	margin-left: 100px;
+	display: block;
+	margin-top: 15px;
+	min-height: 200px;
+	height: auto;
+}
+
+.grid2{
+	width: 461px;
+	float: left;
+	display: block;
+	margin-top: 15px;
+	height: auto;
+	min-height: 200px;	
+}			
+#hr {
+	width: 760px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+
+.head-contenido img {
+	vertical-align:baseline;
+}
+.titulo-principal{
+	padding-left: 30px;
+}
+
+#bodyContent{
+	font-family: "dosisbook";
+}
+
+h2.titulo {
+	font-size:36px;
+	font-weight:normal;
+}
+
+.list-img{
+	display: block;
+}
+.resena{
+	font-family: "dosisbook";
+	font-size: 14px;
+	letter-spacing: 0.7px; 
+	width: 200px;
+}
+
+#content{
+	min-width: 280px;
+	width: auto;
+	max-width: 340px;
+	overflow: visible;
+	padding: 10px;
+	max-height: 150px;
+}
+
+#content > #siteNotice{
+	width: auto;
+	max-width: 340px;
+	display: inline-block;
+	position: relative;
+	padding: 0;
+	margin: 0;
+	float: left;
+	margin-right: 5px;
+}
+
+#content > #siteNotice > a> #firstHeading{
+	display: inline-block;
+	margin-right: 10px;
+	margin-left: 10px; 
+	font-size: 20px!important; 
+	position: relative;
+	width: 200px;
+}
+
+#content > #sitephoto{
+	width: 80px;
+	margin: 0;
+	display: inline-block;
+	padding-top: 0;
+	position: absolute;
+	right: 0;
+}
+#content > #siteNotice > .resena{
+	padding-left:10px;
+	padding-top: 10px;
+}

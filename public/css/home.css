@@ -1,0 +1,465 @@
+
+body{
+     font-size: 14px;
+     /*font-family: "Dosis";*/
+     font-family: arial
+     font-style: normal;
+     font-weight: 400;
+     color: #888;
+}
+
+.container{		
+    width: 960px;
+}
+
+#header {
+    font-size: 1em;
+    padding-top: 0px;
+    height: 120px;
+    max-height: 120px;
+    display: block;		
+}
+
+#nav-header {
+    float: right;
+    display: block;
+    padding-top: 80px;
+    padding-right: 70px;
+    font-weight: bold;
+}
+
+#nav-header > .nav-pills > li.last > img {	
+    margin-top: -23px;
+}
+
+#nav-header > .nav-pills > li > a, a:link, a:visited, a:hover{
+    text-decoration: none;
+    color: #fff;
+    background: none;
+}
+
+#nav-header > .nav-pills > li {
+    margin: 0;
+    padding: 0 10px 0 7px;
+    display: inline-block;
+    border-right: 1px solid #ccc;
+    font-family:  "dosisbook";
+}
+
+#nav-header > .nav-pills > li.last {
+    border: 0;
+}
+
+#nav-header > .nav-pills > li > a.active {
+    color: #fff;
+}
+
+#header > #logo {
+    left: 70px;
+    padding-top: 30px;
+    position: relative;
+    z-index: 2;
+    width: 130px;
+} 
+
+#header > #nav-social{
+    float: right;
+    right: 70px;
+    height: 30px;
+    padding-left: 0;
+    padding-bottom: 0;
+    margin: 0;
+    position: relative;
+    top: -160px;
+    z-index: 2;
+}
+
+#header > #nav-social > a{
+    /*position: relative;*/
+    float: left;
+}
+
+
+
+
+#banner {
+    max-height: 400px;
+    height: 400px;
+}
+
+#banner > #carousel {
+    float: left;
+    position: absolute;
+    z-index: 1;
+    height: 400px;
+}
+
+#home-principal{
+    height: 400px;
+    width: 960px;
+}
+
+
+#home-principal > .carousel-inner{
+    height: 400px;
+}
+
+#banner > #carousel > #home-principal{
+    float: left;
+}
+
+#banner > #carousel > #home-principal > .carousel-indicators {
+    top:370px;
+}
+
+.carousel-control{
+    background: none;
+    border: none;
+/*    top: 45%;*/
+    visibility: hidden;
+}
+
+#banner > #carousel > #home-principal > .carousel-control.right {   
+    right: 50px;
+}
+
+
+#banner > #carousel > #home-principal > .carousel-inner > .item > img{
+    z-index: 0;
+}
+
+#ad-large > #home-inferior-grande {    
+    height: 270px;
+}
+
+#ad-large > #home-inferior-grande{
+    height: 270px;
+    width: 400px;
+}
+
+#login {
+    max-height: 60px;
+    height: 60px;
+	position: relative;
+}
+
+#login > #form-login {
+    font-size: 1.2em;
+    text-align: center;
+    padding-top: 12px;
+    padding-right: 0px;
+}
+
+.navbar-form > .btn {
+    margin-top: 5px;
+}
+
+.navbar-form > #title{		
+    margin-right: 10px;
+    font-weight:bold;
+    color:white;
+    vertical-align: middle;
+}	
+
+#container-section{	
+    max-height: 520px;
+    height: 520px;
+}
+
+#container-section > div > .grid{
+    width: 320px;	
+    float: left;
+    min-height: 1px;	
+    font-size: 0.8em;
+    padding: 0;
+}
+#container-section > div > .grid > .center{
+    padding-left: auto;
+    padding-right: auto;
+}
+
+#container-section > div > .grid > .center> a >img{
+    height: 250px;
+       
+}
+
+#container-section > div {
+    padding-top: 75px;
+    font-size: 1.2em;
+
+}
+#container-section > div > .grid > .titulo-aviso {
+    font-size: 1.7em;
+    color: #9263cd;
+    font-family: "dosislight";
+}
+
+#container-section > div > .grid > .ad-img-first{
+    padding-left: 100px;
+}
+
+#container-section > div > .grid > .ad-img-center{
+    width: 200px;
+    padding: 30px;
+    margin: auto;
+}
+
+#container-section > div > .grid > .ad-img-last{
+    padding-right: 100px;
+}
+
+#container-bot{
+    max-height: 400px;
+    height: 400px;
+}
+
+#container-bot > .grid-half {
+    padding: 0;
+    margin: 0;
+    width: 480px;
+    max-width: 480px;
+    max-height: 400px;	
+    float: left;
+}
+
+#container-bot > .grid-half > #ad-large{
+    margin-left: 60px;
+    padding-top: 65px;
+    width: 400px;
+    height: 270px;
+    max-width: 400px;
+    max-height: 270px;
+    display: inline-block;
+    float: left;
+}
+
+#container-bot > .grid-half > #ad-short{
+    margin-right: 60px;
+    padding-top: 10px;
+    display: inline-block;
+    width: 400px;
+    height: 130px;
+    max-width: 400px;
+    max-height: 130px;
+    float: right;
+}
+
+#container-bot > .grid-half > .first{	
+    padding-top: 65px!important;	
+}
+
+#footer{
+    max-height: 260px;
+    height: 260px;    
+}
+
+#footer > .block-footer{
+    padding-left: 45px;
+}
+
+
+#footer > .block-footer > .mgfoot {	   
+    display: inline-block;   
+    margin-top: 70px;
+    margin-bottom: 100px;
+    float: left;
+} 
+
+#footer > .block-footer > .mgfoot > .list-footer {
+    padding-top: 0px;
+    padding-left: 25px;
+    list-style-type: none;
+    border-left: 1px solid #659201;
+    font-family:  "dosisbook";
+}
+
+#footer > .block-footer > .mgfoot > .list-footer > li > a{
+    color: #669207;
+}
+
+#footer > .block-footer > .mgfoot > .list-footer > li > a:hover{
+    color: #ffffff;
+}
+
+#border-footer{
+    max-height: 10px;
+    height: 10px;
+}
+
+#footer > #nav-social-footer{
+    float: right;
+    padding-right: 70px;
+    padding-top: 0;
+    margin: 0;
+}
+
+#footer > #nav-social-footer > a {    
+    float: left;
+}
+
+#border-footer > .bot-footer{		
+    background-image: url('../img/home/barra_fina_verde.png');
+    background-repeat: repeat;
+    height: 10px;
+    clear: both;
+    display: block; 
+}
+
+.purple{background-color: #c18ffe;}
+
+.green{background-color: #bfea65;}
+
+.border-purple{
+    border-right: 1px solid #9263cd;
+    border-left: 1px solid #9263cd;
+    border-style: solid;
+    border-width: 0px 1px;
+    -moz-border-image: url(../img/home/lineas_separatorias_moradas.png) 0 27 stretch;
+    -webkit-border-image: url(../img/home/lineas_separatorias_moradas.png) 0 27 stretch;
+    -o-border-image: url(../img/home/lineas_separatorias_moradas.png) 0 27 stretch;
+    border-image: url(../img/home/lineas_separatorias_moradas.png) 0 27 stretch;	
+}
+
+#button {
+    background:#88C509;
+    width:108px; 
+    height:30px;
+    border: 0;
+    color: #ffffff;
+}
+#button:hover {
+    background:#7CB604;
+    width:108px; 
+    height:30px;
+    border: 0;
+    color: #ffffff;
+}
+
+.NombreTitulo{
+    font-size: 32px;
+    color: #c18ffe;
+}
+
+.titulo-map{
+    font-family: "dosisbook";
+    font-size: 0.9em;
+}
+
+
+.social { background: url('../img/home/redes.png') no-repeat top left; width: 40px; height: 58px; display: inline-block; margin: 0; padding: 0; overflow: hidden; border:0; float: left} 
+.social.purple-facebook { background-position: 0px 0px;  } 
+.social.purple-twitter { background-position: -40px 0px;  } 
+.social.purple-d { background-position: -80px 0px;  } 
+.social.green-facebook { background-position: 0px -61px;  } 
+.social.green-twitter { background-position: -40px -61px;  } 
+.social.green-d { background-position: -80px -61px;  }
+
+.iconos { background: url('../img/home/iconos.png') no-repeat top left; width: 50px; height: 50px; display: inline-block; margin: 0; padding: 0; overflow: hidden; border:0; } 
+.iconos.plus { background-position: -1px -1px;  } 
+.iconos.arrow-down { background-position: -60px 0px;  } 
+.iconos.map { background-position: -110px 0px;  }
+
+.arrow-big { background: url('../img/home/flechas_grandes.png') no-repeat top left; width: 75px; height: 130px; display: inline-block; margin: 0; padding: 0; overflow: hidden; border:0; } 
+.arrow-big.left { background-position: 0px 0px;  } 
+.arrow-big.right { background-position: -75px 0px;  } 
+
+.arrow-min { background: url('../img/home/flechas.png') no-repeat top left; width: 50px; height: 50px; display: inline-block; margin: 0; padding: 0; overflow: hidden; border:0; } 
+.arrow-min.left { background-position: 0px 0px;  } 
+.arrow-min.right { background-position: -50px 0px;  }  
+
+.center{text-align:center;}
+
+.clear {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+hr {
+    display: block; height: 1px;
+     border: 0; border-top: 2px solid #c18ffe;
+     margin: 1em 0; padding: 0; }
+.text-purple{
+    color: #9369cd;
+}
+.text-purple-dark {
+	color:#5F2476;
+}
+.titulo{
+    padding-top: 20px;
+    line-height: 1em;
+}
+.titulo-principal, .titulo{
+    font-family: "dosislight";
+    font-size: 44px;
+    display: inline-block;
+}
+h1{
+	font-weight:normal;
+}
+ #btn-buscar{    
+    border-top: 1px solid #9369cd;
+    border-left: 1px solid #9369cd;
+    border-bottom: 1px solid #9369cd;   
+} 
+
+#input_map {
+    height: 250px;
+    width: 250px;
+}
+
+#input_map img{max-width: inherit;}
+
+.centrarMap{
+    left: 35px;
+}
+
+#content{
+    width: 150px;
+    max-width: 150px;
+    overflow: visible;
+}
+
+#firstHeading{
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#link{
+    color: black;
+}
+#grid-text{
+    text-align: center;
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5px;
+    font-family: "dosisbook"
+}
+#message-error .title{
+    color: #fff;
+    font-family: "dosisbook";
+    margin-top: 8px;
+    font-size: 1.3em;
+}
+#message-error .error{
+    color: black;                
+}
+
+.temporal {
+    width: 197px;
+    height: 30px;
+}
+
+.head-contenido {
+	display: block;
+	width: 820px;
+	height: 30px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}

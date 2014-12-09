@@ -1,0 +1,48 @@
+#input_map {
+    height: 200px;
+    width: auto;
+    margin: 0px;
+    padding: 0px
+}
+.container-left{
+    width: 400px;
+    float: left;
+    display: inline-block;
+    margin-left: 165px;
+}
+.container-right{    
+    margin-left: 30px;
+    position: relative;
+    bottom: 0px;
+    float: left;
+    display: inline-block; 
+    width: 250px;   
+}
+
+.container-bottom{
+    width: 400px;
+    float: left;
+    display: inline-block;
+    margin-left: 165px;
+}
+.row-fluid > .container-bottom{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.container-bottom > .list-unstyled {
+    list-style-image: url("../../img/home/check_list.png");
+    color: #9363cd;
+    font-size: 1.3em;
+    padding-left: 15px;
+}
+h1.titulo { 
+	padding-top:0px;	
+}
+.text-purple{
+    color: #9363cd;
+}
+
+.head-contenido{
+	height:100px;
+	width:695px;
+}

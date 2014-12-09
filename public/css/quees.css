@@ -1,0 +1,74 @@
+.grid{    
+    width: 960px;
+    height: auto;
+    display: inline-block;               
+    padding: 0;
+    margin: 0;
+}
+.contenido{
+    
+    width: 820px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.inner-grid-left{
+    width: 410px;
+    float: left;
+    display: inline-block;
+    width: 390px;
+    padding-right: 10px;
+    margin-top: 50px;
+    margin-bottom: 30px;    
+}
+.inner-grid-right{
+    width: 410px;
+    float: right;
+    display: inline-block;
+    text-align: right;
+    vertical-align: middle;
+    margin-bottom: 30px;
+    margin-top: 50px;   
+}
+.hr{
+    background: url('../img/linea.png') no-repeat;
+    width: 820px;
+    height: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content-arrow{
+    padding-right: 50px;
+}
+.text-content{
+    text-align: justify;
+    font-family: "dosisbook";
+    font-size: 1.1em;
+}
+.list{                 
+    list-style-image: url("../img/punto.png");                
+    font-size: 1.1em;
+    padding-left: 45px;
+    padding-top: 30px;
+    font-family: "dosismedium";
+    text-align: justify;
+    list-style-position: inside;
+}
+.list > li{
+    padding-bottom: 20px;
+} 
+.list > .no-style{
+    list-style:none;
+}
+.inner-grid{
+    padding-top: 15px;
+    float: left;
+    width: 420px;
+}
+
+b{    
+    font-family: "dosisbold";
+}
+
+h1{
+    font-family: "dosislight";
+}    
